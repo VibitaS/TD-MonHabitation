@@ -1,31 +1,44 @@
 /* RESPONSIVE */
 @media screen and (max-width: 320px) {
   html{
-    width: 100%;
+    height: auto;
     margin:0;
     padding: 0;
+    text-align: center;
+    width: 100%;
   }
   body{
     margin:0;
     padding: 0;
+    text-align: center;
   }
   .login{
-    margin: 0px !important;
+    margin: 0;
     vertical-align: top;
+  }
+  .resize{
+    height: auto;
+    width: 320px;
   }
 }
 /* FIN RESPONSIVE */
+/* DESKTOP INDEX */
 html{
-  width: 100%;
+  height: 100%;
   margin:0;
   padding: 0;
+  text-align: center;
+  width: 100%;
 }
 body{
-  margin:0; padding: 0;
+  height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   font-family: Arial;
+  margin:0; padding: 0;
   overflow: hidden;
+  text-align: center;
+  width: 100%;
 }
 input{
   border-bottom: 1px solid #b5b5b5;
@@ -42,11 +55,10 @@ img{
   background-color: #ffffff;
 }
 #logo{
-  height: auto;
-  padding-left: 75px;
-  display: block;
-  border: 0px;
   align-content: center;
+  border: 0;
+  display: block;
+  height: auto;
 }
 .login{
   width: 320px;
@@ -89,3 +101,65 @@ p{
   background-color: #00B624;
   box-shadow: 0 0 10px #555;
 }
+/* FIN DESKTOP INDEX */
+/* DESKTOP ACCUEIL */
+.menu-top{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #00B624;
+}
+.logo-td{
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+.page-title{
+  align-content: center;
+  color: #ffffff;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-top: 8px;
+  text-align: center;
+}
+#container{
+  width: 100%;
+  height: auto;
+  align-content: center;
+  align-items: center;
+}
+.content{
+align-content: center;
+height: 500px;
+text-align: center;
+width: 500px;
+}
+.content-bloc{
+  background-position: center center;
+  background-color: #00B624;
+  border: 1px solid #00B624;
+  box-shadow: 0 0 12px #999;
+  height: 150px;
+  margin: 0 auto;
+  margin: 10px;
+  width: 150px;
+}
+.content-bloc:hover{
+  background-color: #000000;
+  box-shadow: 0 0 12px #999;
+}
+.content-bloc p{
+  color: #ffffff;
+  padding-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+/* FIN DESKTOP ACCUEIL */
