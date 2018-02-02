@@ -20,8 +20,8 @@
   }
   .content{
   align-content: center;
-  text-align: center;
   display: inline;
+  text-align: center;
   width: 320px !important;
   }
   .content-bloc{
@@ -43,6 +43,7 @@
   width: 100%;
 }
 .menu ul{
+  margin: 0;
   text-align: left;
   width: 100%;
 }
@@ -70,8 +71,8 @@ body{
   font-family: Arial;
   height: 100%;
   margin:0;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
   text-align: center;
   width: 100%;
 }
@@ -172,8 +173,8 @@ text-align: center;
 width: 500px;
 }
 .content-bloc{
-  background-position: center center;
   background-color: #00B624;
+  background-position: center center;
   border: 1px solid #00B624;
   box-shadow: 0 0 12px #999;
   height: 150px;
@@ -191,9 +192,9 @@ width: 500px;
   vertical-align: middle;
 }
 .content-bloc a{
-  text-decoration: none;
   color: #ffffff;
   font-family:Arial,sans-sans-serif;
+  text-decoration: none;
 }
 .right{
   float: right;
@@ -202,3 +203,50 @@ width: 500px;
   float: left;
 }
 /* FIN DESKTOP ACCUEIL */
+/* PAGE LISTE DE PRODUITS */
+.product-card{
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+  display: inline-block;
+  height: 220px;
+  margin: 1rem;
+  position: relative;
+  width: 250px;
+}
+.product-card img{
+  height: auto;
+  width: 250px;
+}
+.product-card:hover{
+	 box-shadow: 3px 2px 3px 0 #C0C0C0;
+   transition: all .2s ease-out;
+}
+.text{
+  color: #bfbfbf;
+  font-family:Arial,sans-serif;
+  font-size: 16px;
+  padding-top:25px;
+}
+.card-icons{
+  float: right;
+  padding-top: 5px;
+}
+.card-icons ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+}
+.icons li{
+  list-style: none;
+  list-style-type: none;
+}
+.icons img{
+  height: 24px;
+  margin: 5px;
+  width: 24px;
+}
+/* FIN PAGE LISTE DE PRODUITS */
