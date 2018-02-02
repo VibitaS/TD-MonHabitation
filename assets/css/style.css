@@ -12,9 +12,27 @@
     margin: 0;
     vertical-align: top;
   }
-  .resize{
+  .container{
+    align-content: center;
+    align-items: center;
     height: auto;
-    width: 320px;
+    width: 100%;
+  }
+  .content{
+  align-content: center;
+  text-align: center;
+  display: inline;
+  width: 320px !important;
+  }
+  .content-bloc{
+    align-items: left;
+    width: 105px !important;
+  }
+  .right{
+    float: right;
+  }
+  .left{
+    float: left;
   }
 }
 /* FIN RESPONSIVE */
@@ -51,7 +69,8 @@ body{
   background-repeat: no-repeat;
   font-family: Arial;
   height: 100%;
-  margin:0; padding: 0;
+  margin:0;
+  padding: 0;
   overflow: hidden;
   text-align: center;
   width: 100%;
@@ -170,6 +189,11 @@ width: 500px;
   padding-top: 30px;
   text-align: center;
   vertical-align: middle;
+}
+.content-bloc a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family:Arial,sans-sans-serif;
 }
 .right{
   float: right;
