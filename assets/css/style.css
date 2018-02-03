@@ -1,7 +1,6 @@
 /* RESPONSIVE */
 @media screen and (max-width: 320px) {
   body{
-    height: auto;
     margin:0;
     max-width: 320px;
     padding: 0;
@@ -34,6 +33,13 @@
   .left{
     float: left;
   }
+  .product{
+    width: 320px;
+  }
+  .product-info{
+    width: 320px !important;
+    height: auto;
+  }
 }
 /* FIN RESPONSIVE */
 /* MENU */
@@ -59,7 +65,6 @@
 /* FIN MENU */
 /* DESKTOP INDEX */
 html{
-  height: 100%;
   margin:0;
   padding: 0;
   text-align: center;
@@ -69,7 +74,6 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   font-family: Arial;
-  height: 100%;
   margin:0;
   overflow: hidden;
   padding: 0;
@@ -250,3 +254,23 @@ width: 500px;
   width: 24px;
 }
 /* FIN PAGE LISTE DE PRODUITS */
+/* FICHE PRODUIT */
+.product-info{
+  border: 1px solid #000;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  width: 800px;
+}
+.product-img img{
+  height: auto;
+  margin-right: 10px;
+  width: 320px;
+}
+.product-details p{
+  text-align: left;
+}
+h3{
+  margin-left:6em;
+}
+/* FIN FICHE PRODUIT */
