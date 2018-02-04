@@ -46,9 +46,6 @@
   .product-details p{
     padding-left: 10px;
   }
-  h3{
-    margin-left: 0 !important;
-  }
 }
 /* FIN RESPONSIVE */
 /* MENU */
@@ -277,11 +274,11 @@ width: 500px;
   margin-right: 10px;
   width: 320px;
 }
+.product-details{
+  display: grid;
+}
 .product-details p{
   float: left;
   text-align: left;
-}
-h3{
-  margin-left:6em;
 }
 /* FIN FICHE PRODUIT */
