@@ -1,5 +1,5 @@
 /* RESPONSIVE */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
   body{
     margin:0;
     max-width: 320px;
@@ -37,8 +37,17 @@
     width: 320px;
   }
   .product-info{
-    width: 320px !important;
+    display: inline-block !important;
     height: auto;
+    padding: 0 !important;
+    width: 320px !important;
+    background-color: #ffffff;
+  }
+  .product-details p{
+    padding-left: 10px;
+  }
+  h3{
+    margin-left: 0 !important;
   }
 }
 /* FIN RESPONSIVE */
@@ -71,6 +80,7 @@ html{
   width: 100%;
 }
 body{
+  background-color: #f1f1f1;
   background-position: center center;
   background-repeat: no-repeat;
   font-family: Arial;
@@ -256,7 +266,7 @@ width: 500px;
 /* FIN PAGE LISTE DE PRODUITS */
 /* FICHE PRODUIT */
 .product-info{
-  border: 1px solid #000;
+  box-shadow: 10px 10px 10px 10px #CCC;
   display: flex;
   margin-top: 20px;
   padding: 10px;
@@ -268,6 +278,7 @@ width: 500px;
   width: 320px;
 }
 .product-details p{
+  float: left;
   text-align: left;
 }
 h3{
